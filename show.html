@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>《Stay With Me》项目展示</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background: linear-gradient(135deg, #f6f0ff, #e3e8ff);
+      color: #333;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 40px;
+      color: #444;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      padding: 24px;
+      margin-bottom: 40px;
+      width: 100%;
+      max-width: 700px;
+      text-align: center;
+    }
+    .card h2 {
+      margin-bottom: 16px;
+      color: #6633cc;
+    }
+    audio, video, iframe {
+      width: 100%;
+      border-radius: 12px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>《Stay With Me》音乐创作展示</h1>
+
+  <div class="card">
+    <h2>🎼 Python 生成的多音轨原始音乐（MIDI自动生成转为MP3文件）</h2>
+    <audio controls>
+      <source src="untitled.mp3" type="audio/mpeg">
+      您的浏览器不支持播放该音频。
+    </audio>
+  </div>
+
+  <div class="card">
+    <h2>🎙️ AI润色演唱版（利用 Suno AI 制作）</h2>
+    <audio controls>
+      <source src="留在我身边 (Stay With Me).mp3" type="audio/mpeg">
+      您的浏览器不支持播放 MP3 音频。
+    </audio>
+  </div>
+
+  <div class="card">
+    <h2>🎬 最终 MV 展示（采用多款视频生成 AI 完成）</h2>
+    <iframe 
+      src="//player.bilibili.com/player.html?isOutside=true&aid=114290388371875&bvid=BV1A2RBYtE3z&cid=29264907477&p=1"
+      scrolling="no" frameborder="no" allowfullscreen="true"
+      style="width:100%; height:420px;">
+    </iframe>
+  </div>
+
+  <footer>
+    © 2025 制作：你的名字 | City Pop 音乐创作展示
+  </footer>
+</body>
+</html>
+
